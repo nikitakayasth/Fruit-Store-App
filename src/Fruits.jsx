@@ -7,7 +7,7 @@
 //   );
 // }
 import { useNavigate } from "react-router-dom";
-import Fruit from "./Data/Fruit.json";
+import fruit from "./data/fruit.json";
 
 //import { useState } from "react";
 import Image from "./Image";
@@ -19,7 +19,7 @@ export default function Fruits(props) {
   //let {productList}=props
   let { cart } = props;
   let Navigate = useNavigate();
-  let productList = Fruit.fruits;
+  let productList = fruit.fruits;
   //let user = JSON.parse(localStorage.getItem("user"));
   return (
     <>

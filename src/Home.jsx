@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import Fruit from "./data/Fruit.json";
+import fruit from "./data/fruit.json";
 //import { useState } from "react";
 export default function Home() {
   let Navigate = useNavigate();
@@ -65,7 +65,7 @@ export default function Home() {
 
         {/* // <button onClick={() => Navigate("/fruits")}>Shop All</button> */}
         <div className="row justify-content-around">
-          {Fruit.fruits.slice(0, 6).map((product) => (
+          {fruit.fruits.slice(0, 6).map((product) => (
             <div
               className="col-12 col-sm-6 col-lg-4 p-2 container-product my-1"
               key={product.id}
