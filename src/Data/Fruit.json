@@ -1,0 +1,335 @@
+{
+  "fruits": [
+    {
+      "id": "1",
+      "name": "Apple",
+      "price": 120,
+      "discount": 10,
+      "unit": "kg",
+      "image": "apple.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Banana",
+      "price": 60,
+      "discount": 5,
+      "unit": "dozen",
+      "image": "banana.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Mango",
+      "price": 150,
+      "discount": 12,
+      "unit": "kg",
+      "image": "mango.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Orange",
+      "price": 90,
+      "discount": 8,
+      "unit": "kg",
+      "image": "orange.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Grapes",
+      "price": 100,
+      "discount": 10,
+      "unit": "kg",
+      "image": "grapes.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Pomegranate",
+      "price": 40,
+      "discount": 0,
+      "unit": "piece",
+      "image": "pomegranate.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Papaya",
+      "price": 45,
+      "discount": 5,
+      "unit": "piece",
+      "image": "papaya.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Pineapple",
+      "price": 70,
+      "discount": 7,
+      "unit": "piece",
+      "image": "pineapple.jpg"
+    },
+    {
+      "id": "9",
+      "name": "Watermelon",
+      "price": 30,
+      "discount": 0,
+      "unit": "piece",
+      "image": "watermelon.jpg"
+    },
+    {
+      "id": "10",
+      "name": "Peach",
+      "price": 50,
+      "discount": 5,
+      "unit": "piece",
+      "image": "peach.jpg"
+    },
+    {
+      "id": "11",
+      "name": "Strawberry",
+      "price": 200,
+      "discount": 15,
+      "unit": "kg",
+      "image": "strawberry.jpg"
+    },
+    {
+      "id": "12",
+      "name": "Cherry",
+      "price": 350,
+      "discount": 10,
+      "unit": "kg",
+      "image": "cherry.jpg"
+    },
+    {
+      "id": "13",
+      "name": "Kiwi",
+      "price": 25,
+      "discount": 0,
+      "unit": "piece",
+      "image": "kiwi.jpg"
+    },
+    {
+      "id": "14",
+      "name": "Dragon Fruit",
+      "price": 90,
+      "discount": 5,
+      "unit": "piece",
+      "image": "dragonfruit.jpg"
+    },
+    {
+      "id": "15",
+      "name": "Sweetlime",
+      "price": 70,
+      "discount": 6,
+      "unit": "kg",
+      "image": "sweetlime.jpg"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@gmail.com",
+      "password": "123",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "email": "user@gmail.com",
+      "password": "123",
+      "role": "user"
+    },
+    {
+      "username": "nikita",
+      "email": "nikita@gmail.com",
+      "password": "1234",
+      "role": "user",
+      "id": "N291GKTg6q8"
+    },
+    {
+      "username": "sagar",
+      "email": "sagar@gmail.com",
+      "password": "12345",
+      "role": "user",
+      "id": "TDyrgsC9_NI"
+    }
+  ],
+  "orders": [
+    {
+      "userId": "admin@gmail.com",
+      "items": [
+        {
+          "id": 3,
+          "name": "Mango",
+          "price": 150,
+          "discount": 12,
+          "unit": "kg",
+          "image": "mango.jpg",
+          "qty": 1
+        }
+      ],
+      "date": "5/1/2026, 4:15:13 PM",
+      "totalAmount": 150,
+      "id": "9FNUjZdFPEs"
+    },
+    {
+      "userId": "user@gmail.com",
+      "items": [
+        {
+          "id": "2",
+          "name": "Banana",
+          "price": 60,
+          "discount": 5,
+          "unit": "dozen",
+          "image": "banana.jpg",
+          "qty": 4
+        },
+        {
+          "id": "3",
+          "name": "Mango",
+          "price": 150,
+          "discount": 12,
+          "unit": "kg",
+          "image": "mango.jpg",
+          "qty": 1
+        },
+        {
+          "id": "4",
+          "name": "Orange",
+          "price": 90,
+          "discount": 8,
+          "unit": "kg",
+          "image": "orange.jpg",
+          "qty": 1
+        }
+      ],
+      "date": "5/1/2026, 4:48:32 PM",
+      "totalAmount": 480,
+      "id": "8yMPUNVba7g"
+    },
+    {
+      "userId": "nikita@gmail.com",
+      "items": [
+        {
+          "id": "2",
+          "name": "Banana",
+          "price": 60,
+          "discount": 5,
+          "unit": "dozen",
+          "image": "banana.jpg",
+          "qty": 1
+        },
+        {
+          "id": "3",
+          "name": "Mango",
+          "price": 150,
+          "discount": 12,
+          "unit": "kg",
+          "image": "mango.jpg",
+          "qty": 1
+        }
+      ],
+      "date": "5/1/2026, 5:24:24 PM",
+      "totalAmount": 210,
+      "id": "_wi_n3eLxxA"
+    },
+    {
+      "userId": "nikita@gmail.com",
+      "items": [
+        {
+          "id": "1",
+          "name": "Apple",
+          "price": 120,
+          "discount": 10,
+          "unit": "kg",
+          "image": "apple.jpg",
+          "qty": 1
+        }
+      ],
+      "date": "5/1/2026, 5:34:55 PM",
+      "totalAmount": 120,
+      "id": "sg3iFMNpH_Y"
+    },
+    {
+      "userId": "nikita@gmail.com",
+      "items": [
+        {
+          "id": "2",
+          "name": "Banana",
+          "price": 60,
+          "discount": 5,
+          "unit": "dozen",
+          "image": "banana.jpg",
+          "qty": 1
+        }
+      ],
+      "date": "5/1/2026, 5:43:30 PM",
+      "totalAmount": 60,
+      "id": "00s--6Lm2RA"
+    },
+    {
+      "userId": "nikita@gmail.com",
+      "items": [
+        {
+          "id": "3",
+          "name": "Mango",
+          "price": 150,
+          "discount": 12,
+          "unit": "kg",
+          "image": "mango.jpg",
+          "qty": 1
+        }
+      ],
+      "date": "5/1/2026, 5:45:09 PM",
+      "totalAmount": 150,
+      "id": "TRVoHGZHjnU"
+    },
+    {
+      "userId": "sagar@gmail.com",
+      "items": [
+        {
+          "id": "3",
+          "name": "Mango",
+          "price": 150,
+          "discount": 12,
+          "unit": "kg",
+          "image": "mango.jpg",
+          "qty": 1
+        }
+      ],
+      "date": "5/1/2026, 6:51:05 PM",
+      "totalAmount": 150,
+      "id": "ee7y3BaF1L8"
+    },
+    {
+      "userId": "sagar@gmail.com",
+      "items": [
+        {
+          "id": "1",
+          "name": "Apple",
+          "price": 120,
+          "discount": 10,
+          "unit": "kg",
+          "image": "apple.jpg",
+          "qty": 4
+        }
+      ],
+      "date": "5/1/2026, 7:28:19 PM",
+      "totalAmount": 480,
+      "id": "9YX_FDxNZ-I"
+    },
+    {
+      "userId": "sagar@gmail.com",
+      "items": [
+        {
+          "id": "2",
+          "name": "Banana",
+          "price": 60,
+          "discount": 5,
+          "unit": "dozen",
+          "image": "banana.jpg",
+          "qty": 1
+        }
+      ],
+      "date": "5/1/2026, 7:28:53 PM",
+      "totalAmount": 60,
+      "id": "lK-8NgKF-CM"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
