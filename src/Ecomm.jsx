@@ -10,7 +10,7 @@ import Signup from "./Signup";
 import Orders from "./Orders";
 import Footer from "./Footer";
 import { useEffect, useState } from "react";
-import Fruit from "./Data/Fruit.json";
+import fruit from "./data/fruit.json";
 import OrdersDetails from "./OrdersDetails";
 import AdminFruits from "./AdminFruits";
 function Ecomm() {
@@ -19,7 +19,7 @@ function Ecomm() {
   let [cart, setCart] = useState(
     JSON.parse(localStorage.getItem("cart")) || [],
   );
-  let productList = Fruit.fruits;
+  let productList = fruit.fruits;
   useEffect(() => {
     localStorage.setItem("cart", JSON.stringify(cart));
   }, [cart]);
